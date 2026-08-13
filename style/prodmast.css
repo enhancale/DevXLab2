@@ -2,6 +2,7 @@
     margin:0px;
     padding:0px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scrollbar-width: none;
 }
 /* =====================================Iniciando a Estilização da Prodmast===================================== */
 
@@ -226,6 +227,16 @@ header{
 .card__efficiente small{
     color: #7fa0a7;
     font-size: 15px;
+}
+.card__icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__icons i{
+    font-size: 35px;
+    color: #b9cad4;
 }
 /* =====================================Fim da Segunda Section===================================== */
 /* =====================================Inicio da Terceira Section===================================== */
